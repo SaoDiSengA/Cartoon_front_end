@@ -1,0 +1,253 @@
+/*body{
+    background-image:url(图片);
+    background-size: 100%;
+    background-repeat:no-repeat;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}/*消除默认值，并设置字体为12px*/ 
+ul{ list-style:none;}
+
+body{
+    background-color:white;
+}/*背景颜色*/
+.totop{
+    position:fixed; 
+    right: 50px;
+    bottom: 100px;
+
+}
+.totop a{
+    text-decoration-line: none;
+    font-size: 25px;
+    color: black;
+
+}
+.totop a:hover{
+    color: #F00;
+}
+#top{
+    width: 100%;
+    height: 27px;
+    background-image: url(../img/top_bg.jpg);
+    border:1px solid black;
+}/*top大小*/
+.top-x{
+    width: 1000px;
+    height: 27px;
+    margin: 0 auto;
+    background-image: url(../img/type_bg.jpg);
+    background-repeat: repeat-x;
+}/*top-x大小且于top居中,背景图片x平铺*/
+.top-x li{
+    float: right;
+    width: 70px;
+    line-height: 27px;
+    list-style-image: url(../img/li_bg.gif)
+}/*li标签浮动和图标*/
+.top-x a{
+    text-decoration-line: none;
+    color: black;
+}
+.top-x a:hover{
+    color: #F00;
+}  
+.top2{
+    width: 1000px;
+    height: 65px;
+    margin: 0 auto;
+    float: none;
+    background-color: rgb(70, 68, 68);
+}
+.top3{
+    width: 1000px;
+    height: 50px;
+    float:none;
+    background-color: rgb(17, 17, 17);
+    margin: 0 auto;
+}
+.top3 li{
+    list-style: none;
+    width: 70px;
+    height: 50px;
+    float: left;
+    text-align: center;
+}
+.top3 li:hover{
+    background-color: rgb(95, 93, 93);
+}
+.top3 li a{
+    text-decoration-line: none;
+    color: rgb(182, 177, 177);
+    line-height:50px; 
+    font-size: 18px;
+    font-family: SimSum;
+    display: block;
+}
+.top3 li a:hover{
+    color: white;
+}
+.erji{
+    width: 800px;
+    height: 35px;
+    background-color: rgb(66, 64, 64);
+    float: none;
+    margin: 0 auto;
+    display: none;
+}
+.erji li{
+    width: 40px;
+    height: 35px;
+    margin-left: 15px;
+}
+.erji li:hover{
+    background-color: rgb(10, 10, 10);
+}
+.erji li a{
+    font-size: 14px;
+    line-height: 35px;
+}
+.erji li a:hover{
+    color:red;
+}
+.搜索框{
+    width: 400px;
+    height: 50px;
+    float: right;
+    margin-right: 80px;
+    text-align: center;
+}
+.搜索框 input.sousuokuang{
+    width: 200px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+.搜索框 input.sousuo{
+    width: 30px;
+    height: 30px;
+    float: left;
+    background-image: url(../img/search.jpg);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    margin-top: 10px;
+}
+
+.mainbody{
+    
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 1000px;
+
+}
+.正文{
+    margin: 10px;
+    width: 630px;
+    
+
+    float: left;
+}
+.排行榜{
+
+    margin: 10px;
+    width: 330px;
+    height: 255px;
+
+    float: left;
+}
+.title{
+    height: 60px;
+    line-height: 60px;
+}
+.title1{
+    height: 50px;
+    line-height: 50px;
+}
+
+.f{
+    margin: 15px;
+    width: 170px;
+    height: 330px;
+    
+    float: left;
+}
+
+.悬浮广{
+    height: 300px;
+    width: 180px;
+    border: solid 1px red;
+    position: fixed; 
+    top: 150px;
+    right: 0px;
+}
+.悬浮返{
+    height: 20px;
+    width: 100px;
+    position: fixed;
+    bottom: 200px;
+    right: 0px;
+}
+
+a:link{
+    color: red;
+    text-decoration: none;
+}/*未访问*/
+a:visited{
+    color: red;
+    text-decoration: none;
+}/*已访问*/
+a:hover{
+    color: purple;
+    text-decoration: none;
+}/*停留*/
+a:active{
+    color: red;
+    text-decoration: none;
+}/*激活*/
+
+.botten{
+    width: 100%;
+    height: 200px;
+    border-top:4px solid #ee1a19;
+    background:#1d1d1d;
+    font-weight: bold;
+    float: left;
+}
+.botten .bak1{
+    width: 1000px;
+    height: 80px;
+    float: none;
+    margin: 0 auto;
+    color:#aaa;
+    line-height: 80px;
+}
+.botten .bak2{
+    width: 1000px;
+    height: 120px;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+    color: #747474;
+}
+.botten .bak1 a{
+    color: #a59e9e;
+    text-decoration-line: none;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.botten .bak1 a:hover{
+    color: #aaa;
+}
+.botten .bak2 a{
+    color: #747474;;
+    text-decoration-line: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+.botten .bak2 a:hover{
+    color: #aaa;
+}
